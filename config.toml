@@ -2,8 +2,8 @@ enable-magisk-update = true # set this to false if you do not want to receive up
 parallel-jobs = 1
 cli-source = "MorpheApp/morphe-cli"
 # cli-source = "MorpheApp/morphe-cli"
-patches-source = "wchill/rvx-morphed"
-#patches-source = "MorpheApp/morphe-patches"
+# patches-source = "wchill/rvx-morphed"
+patches-source = "MorpheApp/morphe-patches"
 rv-brand = "Morphe"
 
 # add 'enabled = false' for not patching a specific app or remove it from the config
@@ -25,6 +25,6 @@ enabled = true
 arch = "arm64-v8a"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
-patcher-args = "-e 'Custom branding icon for YouTube Music' -OappIcon='youtube_music' -e 'Custom branding name for YouTube Music' -OappNameNotification='YT MUSIC' -OappNameLauncher='YT MUSIC' -e 'Custom header for YouTube Music' -OcustomHeader='custom_branding_icon' -e 'Disable music video in album' -Ouse=true"
+# patcher-args = "-e 'Custom branding icon for YouTube Music' -OappIcon='youtube_music' -e 'Custom branding name for YouTube Music' -OappNameNotification='YT MUSIC' -OappNameLauncher='YT MUSIC' -e 'Custom header for YouTube Music' -OcustomHeader='custom_branding_icon' -e 'Disable music video in album' -Ouse=true"
 
 
