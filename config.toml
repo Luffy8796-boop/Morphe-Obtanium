@@ -1,7 +1,9 @@
 enable-magisk-update = true # set this to false if you do not want to receive updates for the module in magisk app
 parallel-jobs = 1
 cli-source = "MorpheApp/morphe-cli"
-patches-source = "MorpheApp/morphe-patches"
+# cli-source = "MorpheApp/morphe-cli"
+patches-source = "wchill/rvx-morphed"
+#patches-source = "MorpheApp/morphe-patches"
 rv-brand = "Morphe"
 
 # add 'enabled = false' for not patching a specific app or remove it from the config
@@ -16,7 +18,7 @@ excluded-patches = ""
 included-patches = ""
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
-patcher-args = "-e 'Custom branding name for YouTube' -OappName='YouTube' -e 'Custom branding icon for YouTube' -OappIcon='youtube' -e 'Hide shortcuts' -Oexplore=true -Osubscriptions=true -Osearch=true -e 'Custom header for YouTube' -OcustomHeader='custom_branding_icon'" #-e 'MaterialYou' -Ouse=true
+# patcher-args = "-e 'Custom branding name for YouTube' -OappName='YouTube' -e 'Custom branding icon for YouTube' -OappIcon='youtube' -e 'Hide shortcuts' -Oexplore=true -Osubscriptions=true -Osearch=true -e 'Custom header for YouTube' -OcustomHeader='custom_branding_icon'" #-e 'MaterialYou' -Ouse=true
 
 [YouTube-Music]
 enabled = true
