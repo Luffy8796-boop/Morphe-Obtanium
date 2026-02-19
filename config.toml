@@ -18,14 +18,14 @@ excluded-patches = ""
 included-patches = ""
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
-# patcher-args = "-e 'Custom branding name for YouTube' -OappName='YouTube' -e 'Custom branding icon for YouTube' -OappIcon='youtube' -e 'Hide shortcuts' -Oexplore=true -Osubscriptions=true -Osearch=true -e 'Custom header for YouTube' -OcustomHeader='custom_branding_icon'" #-e 'MaterialYou' -Ouse=true
+patcher-args = "-e 'Custom branding name for YouTube' -OappName='YouTube' -e 'Custom branding icon for YouTube' -OappIcon='youtube' -e 'Hide shortcuts' -Oexplore=true -Osubscriptions=true -Osearch=true -e 'Custom header for YouTube' -OcustomHeader='custom_branding_icon'" #-e 'MaterialYou' -Ouse=true
 
 [YouTube-Music]
 enabled = true
 arch = "arm64-v8a"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
-# patcher-args = "-e 'Custom branding icon for YouTube Music' -OappIcon='youtube_music' -e 'Custom branding name for YouTube Music' -OappNameNotification='YT MUSIC' -OappNameLauncher='YT MUSIC' -e 'Custom header for YouTube Music' -OcustomHeader='custom_branding_icon' -e 'Disable music video in album' -Ouse=true"
+patcher-args = "-e 'Custom branding icon for YouTube Music' -OappIcon='youtube_music' -e 'Custom branding name for YouTube Music' -OappNameNotification='YT MUSIC' -OappNameLauncher='YT MUSIC' -e 'Custom header for YouTube Music' -OcustomHeader='custom_branding_icon' -e 'Disable music video in album' -Ouse=true"
 
 [Reddit]
 enabled = false
